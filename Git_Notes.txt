@@ -1,0 +1,72 @@
+File explorer --> path --> replace with cmd --> pop up cmd
+git init --> For initialising
+git clone <reposity_link>
+git status --> 
+
+On branch main
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Demo/
+        HR_Questions.docx
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+git add .--> (No spaces and underscore for file)
+error: 'Demo/' does not have a commit checked out
+fatal: adding files failed
+
+
+git commit -m "my initial commit" --> 
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'A Tejashwini@DESKTOP-AJNR31E.(none)')
+
+git config --global user.email "308teja@gmail.com"-->
+
+git commit -m "my initial commit"-->
+[main (root-commit) b90bb91] my initial commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 HRQuestions.docx
+
+git log -->
+
+git push origin main --> 
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+Please make sure you have the correct access rights
+and the repository exists.
+
+git branch -->
+* main
+
+git config -->
+global user.name "Tejashwini78"
+
+git push origin main-->
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+Please make sure you have the correct access rights
+and the repository exists.
+
+git remote add origin https://github.com/Tejashwini78/Demo.git-->
+
+git push origin main-->
+info: please complete authentication in your browser...
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 8 threads
+
+
